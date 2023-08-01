@@ -1,33 +1,36 @@
-<!-- your html code here -->
-  <div id="Contact" class="container-fluid mx-auto">
-    <h1> Contact</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt blanditiis ipsum laudantium, 
-        obcaecati recusandae nobis! Ullam delectus deserunt, repudiandae a eos saepe aut fugiat architecto tempore quasi. 
+<div id="Contact" class="container border-end-0 border-start-0 mx-auto py-5">
+  <h1> Contact</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo incidunt blanditiis ipsum laudantium,
+        obcaecati recusandae nobis! Ullam delectus deserunt, repudiandae a eos saepe aut fugiat architecto tempore quasi.
         Quia, voluptates!</p>
-      
-	<div class="Card">
+  <div class="form col-8 mx-auto">
+    <div style="height: 35vh; display: flex; align-items: center; justify-content: center;">
+      <form class="bg-light" style="padding: 20px; border-radius: 1px; width: 80%;">
+        <div class="form-group row mb-3">
+          <label for="email" class="col-3 col-form-label text-dark text-end"><strong>Your Email:</strong></label>
+          <div class="col">
+            <input type="email" class="col form-control" id="email" placeholder="Your email">
+          </div>
+        </div>
+        <div class="form-group row mb-3">
+          <label for="message" class="col-3 col-form-label text-dark text-end"><strong>Your Message:</strong></label>
+          <div class="col">
+            <textarea class="col form-control" id="message" placeholder="Write your message here"></textarea>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col offset-sm-2">
+            <button type="submit" class="btn btn-primary float-end">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
 
-<div style="background-color: bg-light; height: 35vh; display: flex; align-items: center; justify-content: center;">
 
- <form style="background-color:#f7f7f7; padding: 20px; border-radius: 1px; width: 80%;">
-    <div class="form-group row mb-3">
-      <label for="email" class="col-sm-2 col-form-label text- dark">Your Email:</label>
-      <div class="col-sm-10">
-        <input type="email" class="form-control" id="email" placeholder="Your email">
-      </div>
-    </div>
-    <div class="form-group row mb-3">
-      <label for="message" class="col-sm-2 col-form-label text-dark">Your Message:</label>
-      <div class="col-sm-10">
-        <textarea class="form-control" id="message" placeholder="Write your message here"></textarea>
-      </div>
-    </div>
-    <div class="form-group row">
-      <div class="col-sm-10 offset-sm-2">
-        <button type="submit" class="btn btn-primary float-end">Submit</button>
-      </div>
-    </div>
-  </form>
-</div>
-</div>
-</div>
+
+
+
+
+
